@@ -6,7 +6,9 @@
     left: 0px;
     top: 0px;
 
-    background: #06203E;
+    background: rgb(2,0,36);
+    background: linear-gradient(145deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 34%, rgba(8,24,131,1) 43%, rgba(7,47,146,1) 53%, rgba(6,72,162,1) 62%, rgba(4,113,189,1) 76%, rgba(2,154,217,1) 91%, rgba(0,212,255,1) 100%);
+
 }
 .conteudo{
     position: absolute;
@@ -71,7 +73,7 @@
     font-weight: normal;
     font-size: 28px;
     line-height: 39px;
-    text-align: center;
+    text-align: left;
     border: none;
     background: none;
     color: #FFFFFF;
@@ -94,7 +96,7 @@
     position: absolute;
     width: 77px;
     height: 77px;
-    left: 17px;
+    left: 27px;
     top: 10px;
     border-radius: 100%;
 }
@@ -134,11 +136,17 @@
     height: 780px;
     left: 495.5px;
     top: 0px;
+}.Vector3{
+    position: absolute;
+    width: 704.5px;
+    height: 780px;
+    left: 600.5px;
+    top: 0px;
 }
 .input{
-    width: 250px;
+    width: 321px;
     height: 40px;
-    left: 100px;
+    left: 125px;
 
     background: #FFFFFF;
     border: 1px solid #000000;
@@ -147,17 +155,17 @@
     position: absolute;
 }
 .input_1{
-    top: 299px;
+    top: 300px;
 }.input_2{
-    top: 409px;
+    top: 410px;
 }.input_3{
-    top: 519px;
+    top: 520px;
 }
 .cadastro_nomes{
     position: absolute;
     width: 300px;
     height: 30px;
-    left: 120px;
+    left: 150px;
     
     font-family: sans-serif;
     font-style: normal;
@@ -194,14 +202,14 @@
     position: absolute;
     width: 229px;
     height: 62px;
-    left: 95px;
-    top: 673px;
+    left: 165px;
+    top: 650px;
 }
 .bt_adicionar{
     position: absolute;
     width: 229px;
     height: 62px;
-    left: 95px;
+    left: 165px;
     top: 573px;
 }
 .User_image{
@@ -221,7 +229,7 @@
     left: 157px;
     top: 200px;
 
-    background: url(.png);
+    background: silver;
     border-radius: 100px;
 }
 .nome_perfil{
@@ -242,9 +250,9 @@
 }
 .nome_perfil_BL{
     position: absolute;
-    width: 331px;
+    width: 401px;
     height: 39px;
-    left: 55px;
+    left: 35px;
     top: 350px;
 
     font-family: sans-serif;
@@ -313,6 +321,14 @@
     left: 50px;
     top: 130px;
 }
+.iframe_notificação{
+    border: none;
+    position: absolute;
+    width: 620px;
+    height: 600px;
+    left: 15px;
+    top: 130px;
+}
 .produto{
     float: left;
     width: 550px;
@@ -346,7 +362,7 @@
 select{
     width: 321px;
     height: 40px;
-    left: 100px;
+    left: 125px;
     position: absolute;
     background: #FFFFFF;
     border: 2px solid #000000;

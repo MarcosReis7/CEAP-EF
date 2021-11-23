@@ -3,32 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=0.67">
     <link rel="stylesheet" href="style.css">
-    <title>Cadastro</title>
+    <title>Notificações</title>
 </head>
 <body>
     <div class="barralateral">
-        <button class="bt_lateral bt1">Listar Materiais</button>
-        <button class="bt_lateral bt2">Adicionar Material</button>
-        <button class="bt_lateral bt3">Listar Emprestimo</button>
-        <button class="bt_lateral bt4">Novo Emprestimo</button>
+        <button onclick="window.location.href = 'Lista_Material.html'" class="bt_lateral bt1">Listar Materiais</button>
+        <button onclick="window.location.href = 'Novo_Material.html'"  class="bt_lateral bt2">Adicionar Material</button>
+        <button onclick="window.location.href = 'Lista_Emprestimo.html'" class="bt_lateral bt3">Listar Emprestimo</button>
+        <button onclick="window.location.href = 'Novo_Emprestimo.html'" class="bt_lateral bt4">Novo Emprestimo</button>
         <img src="Logo.png" class="logo">
         <p class="CEAP">CEAP</p>
-        <img src="Home.png" class="home">
+        <img id="fotoDePerfil" class="User_image_BL">
+        <p class="nome_perfil_BL">Bem vindo, [nome]</p>
+
         
     </div>
     <div class="conteudo">
         
         <div class="conteudinho">
-            <h3 class="pagina">Home / Cadastro</h3>
-            <h3 class="titulo">Cadastro</h3>
-            <img src="Vector.png" class="Vector">
-            <input type="email" class="input input_1">
-            <input type="email" class="input input_2">
-            <input type="password" class="input input_3">
+            <h3 class="pagina">Home / Listar Materiais</h3>
+            <h3 class="titulo">Lista de Materiais</h3>
+            <img src="Vector3.png" class="Vector3">
+            <iframe class="iframe_notificação" src="iframe_notificação.html"></iframe>
         </div>
     </div>
-    
+    <button onclick="window.location.href = 'Notificação.html'" id="Notificação" class="Notificação"><img src="Notificação.png"></button>
+    <img id="fotoDePerfil" class="User_image">
+    <p class="nome_perfil">[nome]</p>
 </body>
 </html>
