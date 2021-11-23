@@ -1,0 +1,373 @@
+
+.barralateral{
+    position: absolute;
+    width: 441px;
+    height: 1044px;
+    left: 0px;
+    top: 0px;
+
+    background: #06203E;
+}
+.conteudo{
+    position: absolute;
+    width: 1505px;
+    height: 900px;
+    left: 460px;
+    top: 125px;
+
+    background: #D3D3D3;
+}
+.conteudinho{
+    position: absolute;
+    width: 1300px;
+    height: 780px;
+    left: 108px;
+    top: 90px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.pagina{
+    position: absolute;
+    text-align: left;
+    width: 296px;
+    height: 30px;
+    left: -90px;
+    top: -80px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.titulo{
+    position: absolute;
+    width: 411px;
+    height: 50px;
+    left: 70px;
+    top: 0px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #000000;
+}
+.bt_lateral{
+    width: 238px;
+    height: 41px;
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 39px;
+    text-align: center;
+    border: none;
+    background: none;
+    color: #FFFFFF;
+
+}
+.bt1{
+    left: 95px;
+    top: 590px;
+}.bt2{
+    left: 95px;
+    top: 680px;
+}.bt3{
+    left: 95px;
+    top: 770px;
+}.bt4{
+    left: 95px;
+    top: 860px;
+}
+.logo{
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 17px;
+    top: 10px;
+    border-radius: 100%;
+}
+.CEAP{
+    position: absolute;
+    width: 96px;
+    height: 51px;
+    left: 171px;
+    top: -20px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 51px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.home{
+    position: absolute;
+    width: 331px;
+    height: 190px;
+    left: 55px;
+    top: 232px;
+
+}
+.Vector{
+    position: absolute;
+    width: 724.5px;
+    height: 780px;
+    left: 600.5px;
+    top: 0px;
+}.Vector2{
+    position: absolute;
+    width: 804.5px;
+    height: 780px;
+    left: 495.5px;
+    top: 0px;
+}
+.input{
+    width: 250px;
+    height: 40px;
+    left: 100px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+    position: absolute;
+}
+.input_1{
+    top: 299px;
+}.input_2{
+    top: 409px;
+}.input_3{
+    top: 519px;
+}
+.cadastro_nomes{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 120px;
+    
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: left;
+
+    color: #000000;
+}.cadastro_1{
+    top: 245px;
+}.cadastro_2{
+    top: 355px;
+}.cadastro_3{
+    top: 465px;
+}
+.bt_fim{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+    background: #44D5F4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.bt_cadastrar{
+    position: absolute;
+    width: 229px;
+    height: 62px;
+    left: 95px;
+    top: 673px;
+}
+.bt_adicionar{
+    position: absolute;
+    width: 229px;
+    height: 62px;
+    left: 95px;
+    top: 573px;
+}
+.User_image{
+    position: absolute;
+    width: 56.98px;
+    height: 55px;
+    left: 1594.4px;
+    top: 38px;
+
+    background: url(.png);
+    border-radius: 100px;
+}
+.User_image_BL{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 157px;
+    top: 200px;
+
+    background: url(.png);
+    border-radius: 100px;
+}
+.nome_perfil{
+    position: absolute;
+    width: 106.72px;
+    height: 35px;
+    left: 1694.85px;
+    top: 29px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+.nome_perfil_BL{
+    position: absolute;
+    width: 331px;
+    height: 39px;
+    left: 55px;
+    top: 350px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+.Notificação{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 1520px;
+    top: 40px;
+    border: none;
+
+}
+.bt1:hover{
+    transition: 0.5s;
+    width: 396px;
+    height: 94px;
+    left: 25px;
+    top: 564px;
+    background: #D3D3D3;
+    border-radius: 40px 0px 0px 40px;
+}
+.bt2:hover{
+    transition: 0.5s;
+    width: 396px;
+    height: 94px;
+    left: 25px;
+    top: 654px;
+    background: #D3D3D3;
+    border-radius: 40px 0px 0px 40px;
+}
+.bt3:hover{
+    transition: 0.5s;
+    width: 396px;
+    height: 94px;
+    left: 25px;
+    top: 744px;
+    background: #D3D3D3;
+    border-radius: 40px 0px 0px 40px;
+}
+.bt4:hover{
+    transition: 0.5s;
+    width: 396px;
+    height: 94px;
+    left: 25px;
+    top: 834px;
+    background: #D3D3D3;
+    border-radius: 40px 0px 0px 40px;
+}
+.iframe{
+    border: none;
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    left: 50px;
+    top: 130px;
+}
+.produto{
+    float: left;
+    width: 550px;
+    height: 150px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background: #D3D3D3;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.iframe_elem1{
+    float: left;
+    margin-top: 60px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    margin-left: 110px;
+
+    color: #000000;
+}
+.iframe_elem2{
+    float: left;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    margin-left: 110px;
+
+    color: #000000;
+}
+select{
+    width: 321px;
+    height: 40px;
+    left: 100px;
+    position: absolute;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+}.slct1{ 
+    top: 200px;
+}.slct2{
+    top: 320px;
+}.input3{    
+    top: 440px;
+}.input4{
+    top: 560px;
+}
+.select_1{
+    top:140px;
+}.select_2{
+    top:260px;
+}
+.aluno{
+    top: 380px;
+}.num_aluno{
+    top: 500px;
+}

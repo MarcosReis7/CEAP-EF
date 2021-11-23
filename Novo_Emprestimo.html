@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=0.67">
+    <link rel="stylesheet" href="style.css">
+    <title>Emprestimo</title>
+</head>
+<body>
+    <div class="barralateral">
+        <button onclick="window.location.href = 'Lista_Material.html'" class="bt_lateral bt1">Listar Materiais</button>
+        <button onclick="window.location.href = 'Novo_Material.html'"  class="bt_lateral bt2">Adicionar Material</button>
+        <button onclick="window.location.href = 'Lista_Emprestimo.html'" class="bt_lateral bt3">Listar Emprestimo</button>
+        <button onclick="window.location.href = 'Novo_Emprestimo.html'" class="bt_lateral bt4">Novo Emprestimo</button>
+        <img src="Logo.png" class="logo">
+        <p class="CEAP">CEAP</p>
+        <img id="fotoDePerfil" class="User_image_BL">
+        <p class="nome_perfil_BL">Bem vindo, [nome]</p>
+        
+    </div>
+    <div class="conteudo">
+        
+        <div class="conteudinho">
+            <h3 class="pagina">Home / Emprestimo </h3>
+            <h3 class="titulo">Emprestar Material</h3>
+            <img src="Vector2.png" class="Vector2">
+
+            <p class="cadastro_nomes select_1">Material</p>
+            <select class="slct1" name="materiais">
+                <option value="bolaFUT_Q">Bola de Futebol(quadra)</option>
+                <option value="bolaFUT_C">Bola de Futebol(campo)</option>
+                <option value="bolaVOL">Bola de Vôlei</option>
+                <option value="bolaBASQ">bola de Basquete</option>
+                <option value="raquetePP">Raquete de Ping Pong</option>
+                <option value="bolaPP">Bola de Ping Pong</option>
+              </select> 
+            <p class="cadastro_nomes select_2">Email</p>
+            <select class="slct2" name="qnt_emprestada">
+                <option value="1">1</option>
+                <option value="2">2</option>    
+            </select> 
+            <p class="cadastro_nomes aluno">Nome do aluno</p>
+            <input id="nome_aluno" type="email" class="input input3">
+            <p class="cadastro_nomes num_aluno">Número do aluno</p>
+            <input id="num_aluno" type="email" class="input input4">
+              <button id="cadastrar_usuario" class="bt_fim bt_cadastrar">Cadastrar</button>
+            
+        </div>
+    </div>
+    <button id="Notificação" class="Notificação"><img src="Notificação.png"></button>
+    <img id="fotoDePerfil" class="User_image">
+    <p class="nome_perfil">[nome]</p>
+
+</body>
+</html>
